@@ -1,7 +1,7 @@
 import { Router } from "express";
 import rateLimit from "express-rate-limit";
 import requireAuth from "../middleware/auth.js";
-import { createMessage, listMessages, markRead, deleteMessage } from "../controllers/contactController.js";
+import { createMessage, listMessages, markRead, deleteMessage } from "../Controllers/contactController.js";
 
 const router = Router();
 
