@@ -24,9 +24,10 @@ app.use(
 );
 app.use(
   cors({
-    origin: config.clientUrls,
+    origin: "https://rajaratikantrao-portfolio.vercel.app",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
   }),
+
 );
 app.use(express.json({ limit: "10kb" }));
 
